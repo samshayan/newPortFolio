@@ -1,0 +1,13 @@
+
+body {
+  background-image: url("../img/contactPhoto.svg");
+  height: 100%;
+}
+#main-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,203 @@
+
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+
+  background:
+  radial-gradient(black 3px, transparent 4px),
+  radial-gradient(black 3px, transparent 4px),
+  linear-gradient(#fff 4px, transparent 0),
+  linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+  linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: aliceblue;
+}
+
+/* Container */
+.wrapper, .wrapper1, .wrapper2, .wrapper3  {
+  position: relative;
+}
+/* images adjustments */
+.image {
+  display: block;
+  height: auto;
+  width: 180px;
+  margin: 0 2.3em;
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* Text adjustment */
+.text {
+  background-color: blue;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: .75em 0;
+  position: relative;
+  top: 2.5em;
+  left: -6.5em;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(-45deg);
+}
+
+hr {
+  background-color: white; 
+  margin: 1px 0;
+  width: 80%;
+}
+/* about me */
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2.3em;
+  right: 0;
+  height: 100%;
+  width: 180px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F4D03F;
+
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.wrapper:hover .overlay {
+  opacity: .6;
+}
+
+/* My projects  */
+.overlay1{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2.3em;
+  right: 0;
+  height: 100%;
+  width: 180px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.wrapper1:hover .overlay1 {
+  opacity: .6;
+}
+/* Career history */
+.overlay2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2.3em;
+  right: 0;
+  height: 100%;
+  width: 180px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D68910;
+
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.wrapper2:hover .overlay2 {
+  opacity: .6;
+}
+
+/* Image 3 */
+.overlay3{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2.3em;
+  right: 0;
+  height: 100%;
+  width: 180px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A93226;
+
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.wrapper3:hover .overlay3 {
+  opacity: .6;
+}
+
+
+
+/* @media only screen and (max-width: 812px) {
+  .overlay{
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 2.3em;
+    right: 0;
+    height: 100%;
+    width: 180px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F4D03F;
+  
+    -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  }
+} */
+#main-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 411px) {
+  
+  .overlay, .overlay1, .overlay2, .overlay3{
+    top: 4.2rem;
+    left: 4.2rem;
+    height: 180px;
+  }
+  .image{
+    padding-top: 5em;
+    margin-left: 6em;
+  }
+}

@@ -1,0 +1,182 @@
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+
+  
+}
+
+a {
+  text-decoration: none !important;
+  color: aliceblue;
+}
+
+/* Container */
+.wrapper, .wrapper1  {
+  position: relative;
+}
+/* images adjustments */
+.image {
+  display: block;
+
+  width: 600px;
+  height: 525px;
+  margin: 0 -2em 25% 0;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+.image1 {
+    display: block;
+  
+    width: 320px;
+    height: 280px;
+    margin: 0 -6em;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    
+  }
+/* Text adjustment */
+.text {
+  background-color: blue;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 1.75em 0;
+  position: relative;
+  top: 60%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.text1 {
+    background-color: blue;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 1.75em 0;
+    position: relative;
+    top: 10%;
+    left: -50%;
+  
+    -webkit-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    text-align: center;
+  
+  }
+
+hr {
+  background-color: white; 
+  margin: 1px 0;
+  width: 80%;
+}
+/* about me */
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F4D03F;
+
+  width: 600px;
+  height: 525px;
+  margin: 0 -2em 25% 0;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  
+}
+
+.wrapper:hover .overlay {
+  opacity: .6;
+}
+
+/* My projects  */
+.overlay1{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  
+  width: 320px;
+  height: 280px;
+  margin: 0 -6em;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+  
+  .wrapper1:hover .overlay1 {
+    opacity: .6;
+  }
+
+#mainSec{
+  background-color:  #FF8C00;
+  height: 100%;
+
+  }
+#secOne{
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.555);
+}
+#secTwo{
+  height: 100%;
+  background-color: #EA80FF;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+}
+
+.listDesc{
+  list-style-type: disc;
+}
+.bgProject{
+  background-color:#FFBF80;
+}
+
+@media only screen and (max-width: 411px) {
+  
+  .image {
+    width: 300px;
+    height: 300px;
+    margin-left: -.5em;
+  }
+  .overlay{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .image1 {
+      width: 300px;
+      height: 300px;
+    }
+    .overlay1{
+      width: 300px;
+      height: 300px;
+      }
+      #mainSec{
+        height: 130%;
+      }
+      span{
+        display: none;
+      }
+      img{
+        width: 100%;
+      }
+      #secOne{
+        height: 230%;
+      }
+    
+}

@@ -1,0 +1,67 @@
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+#careerMainSec{
+    background-image: url("../img/careerBg.png");
+    height: 93%;
+    background-size: cover;
+}
+#secTwo{
+    background-color: #73a5ce;
+    height: 100%;
+}
+
+#careerHeading{
+    padding: 20% 40% 0 43%;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+#aboutPage{
+    background: url("../img/aboutBg.png");
+    height: 95%;
+    overflow: hidden;
+}
+
+#aboutMainSec{
+    height: 60%;
+}
+
+.bgNavAbout{
+    background-color:#ffca4f;
+}
+.cardAbout{
+    margin:15% 20% ;
+}
+hr {
+    background-color: black; 
+    margin: 1px 0;
+    width: 80%;
+  }
+  .bgCareer{
+      background-color: #c2dceb;
+  }
+
+  @media only screen and (max-width: 411px) {
+ 
+    #aboutMainSec, #careerMainSec {
+        height: 100%;
+        overflow:auto;
+        position: relative;
+    }
+    h1{
+        font-size: 2em;
+        margin: 40% -20%;
+
+        }
+        #secTwo{
+            height: 145%;
+        }
+        img{
+            width: 100%;
+        }
+    }
