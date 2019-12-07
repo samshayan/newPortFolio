@@ -10,8 +10,10 @@ html, body{
     background-image: url("../img/careerBg.png");
     height: 93%;
     background-size: cover;
+
 }
 #secTwo{
+    background-image: url("../img/careerSecTwo.png");
     background-color: #73a5ce;
     height: 100%;
 }
@@ -64,4 +66,7 @@ hr {
         img{
             width: 100%;
         }
+        span{
+            display: none;
+          }
     }

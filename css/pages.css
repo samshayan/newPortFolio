@@ -81,7 +81,7 @@ hr {
   right: 0;
   opacity: 0;
   transition: .5s ease;
-  background-color: #F4D03F;
+  background-color: #426661;
 
   width: 600px;
   height: 525px;
@@ -116,17 +116,17 @@ hr {
   }
 
 #mainSec{
-  background-color:  #FF8C00;
+  background-image: url("../img/mainSecProject.png");
   height: 100%;
 
   }
 #secOne{
   height: 100%;
-  background-color: rgba(255, 0, 0, 0.555);
+  background-image: url("../img/circlePatternPorject.png");
 }
 #secTwo{
   height: 100%;
-  background-color: #EA80FF;
+  background-image: url("../img/arrowdownProject.png");
 }
 body {
   scroll-behavior: smooth;
@@ -143,7 +143,7 @@ body {
   list-style-type: disc;
 }
 .bgProject{
-  background-color:#FFBF80;
+  background-color:#6775b2;
 }
 
 @media only screen and (max-width: 411px) {
@@ -167,7 +167,7 @@ body {
       height: 300px;
       }
       #mainSec{
-        height: 130%;
+        height: 110%;
       }
       span{
         display: none;
@@ -176,7 +176,15 @@ body {
         width: 100%;
       }
       #secOne{
-        height: 230%;
+        height: 220%;
       }
-    
+      .wrapper {
+
+        top: -8em;
+        left: 3em;
+      }
+    .wrapper1{
+      top: 9em;
+      left: -7.7em;
+    } 
 }
